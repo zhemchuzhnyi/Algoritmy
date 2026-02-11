@@ -75,5 +75,6 @@ for i, series in enumerate(chart.series):
 ws.add_chart(chart, "E2")
 
 
+
 # Сохраняем файл
 wb.save('applications_data.xlsx')
